@@ -1,9 +1,9 @@
 public class Client {
     // propriété
-    long id;
-    String nomPrenoms;
-    String telephone;
-    CategorieClient categorieClient;
+    private long id;
+    private String nomPrenoms;
+    private String telephone;
+    private CategorieClient categorieClient;
 
     // Constructeur sans paramètre
     public Client() {
