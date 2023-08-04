@@ -11,10 +11,10 @@ public class Client {
     }
 
     // constructeur avec paramètre
-    public Client(long id, String nomPrenoms, String telephone, CategorieClient categorieClient) {
+    public Client(long id, String nomPrenoms, String contact, CategorieClient categorieClient) {
         this.id = id;
         this.nomPrenoms = nomPrenoms;
-        this.telephone = telephone;
+        this.contact = contact;
         this.categorieClient = categorieClient;
     }
 
