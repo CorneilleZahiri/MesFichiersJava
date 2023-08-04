@@ -2,7 +2,7 @@ public class Client {
     // propriété
     private long id;
     private String nomPrenoms;
-    private String telephone;
+    private String contact;
     private CategorieClient categorieClient;
 
     // Constructeur sans paramètre
