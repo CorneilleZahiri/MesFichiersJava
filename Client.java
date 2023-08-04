@@ -35,12 +35,12 @@ public class Client {
         this.nomPrenoms = nomPrenoms;
     }
 
-    public String getTelephone() {
-        return this.telephone;
+    public String getContact() {
+        return this.contact;
     }
 
-    public void setTelephone(String telephone) {
-        this.telephone = telephone;
+    public void setContact(String contact) {
+        this.contact = contact;
     }
 
     public CategorieClient getCategorieClient() {
